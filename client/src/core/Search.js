@@ -58,7 +58,7 @@ const Search = () => {
       );
     }
     if (searched && results.length < 1) {
-      return `No Products Found`;
+      return <h1 style={{ color: 'white' }}>No Products Found</h1>;
     }
   };
 
